@@ -11,4 +11,6 @@ def fizzbuzz():
             print("{:d}".format(i), end="")
         
         if i < 100:
-            print(" ", end="") 
+            print(" ", end="")
+        else:
+            print("")
